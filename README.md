@@ -27,6 +27,7 @@ Modulo arithmetic (`%`) for circular buffer wrapping requires expensive integer 
 ## Building and Testing
 
 The project uses CMake as its build system and automatically fetches Google Test for thread-safety and correctness verification.
+- NOTE: You can write your own tests. I have used AI generated tests to check the project
 
 ### Prerequisites
 * A C++20 compatible compiler (Clang/GCC)
